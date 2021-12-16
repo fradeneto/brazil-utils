@@ -1,0 +1,36 @@
+{
+  "name": "brazil-utils",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "yarn run test:types && yarn run test:unit",
+    "test:unit": "ava",
+    "test:types": "tsc -p ./tsconfig.build.json --noEmit",
+    "build": "bili",
+    "prepublishOnly": "yarn run test && yarn run build"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Orlando Frade",
+    "url": "https://frade.dev/",
+    "email": "orlando@frade.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fradeneto/brazil-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fradeneto/brazil-utils/issues"
+  },
+  "homepage": "https://github.com/fradeneto/brazil-utils#readme",
+  "dependencies": {
+    "class-validator": "^0.13.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "bili": "^5.0.5",
+    "typescript": "^4.5.4"
+  }
+}
