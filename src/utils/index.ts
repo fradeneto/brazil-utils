@@ -1,0 +1,1 @@
+export { generateValidatorDecorator } from './generateValidatorDecorator';
