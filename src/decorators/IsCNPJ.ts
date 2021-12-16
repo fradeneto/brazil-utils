@@ -1,5 +1,5 @@
-import { generateValidatorDecorator } from '@utils/index';
-import { isCNPJ } from '@validators/index';
+import { generateValidatorDecorator } from '../utils/index';
+import { isCNPJ } from '../validators/index';
 /**
  * Check if value is a valid CNPJ.
  * @example ```js
