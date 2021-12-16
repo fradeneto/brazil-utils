@@ -1,4 +1,4 @@
-import { DateTimePieces } from '@models/DateTimePieces';
+import { DateTimePieces } from '../models/DateTimePieces';
 import { parsePiecesToDate } from './parsePiecesToDate';
 
 /**

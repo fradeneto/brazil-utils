@@ -7,14 +7,6 @@
     "module": "commonjs",
     "declaration": true,
     "outDir": "dist",
-    "baseUrl": "./",
-    "paths": {
-      "@decorators/*": ["./src/decorators/*"],
-      "@helpers/*": ["./src/helpers/*"],
-      "@models/*": ["./src/models/*"],
-      "@utils/*": ["./src/utils/*"],
-      "@validators/*": ["./src/validators/*"]
-    },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,

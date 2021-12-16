@@ -1,5 +1,5 @@
-import { generateValidatorDecorator } from '@utils/index';
-import { isCPFOrCNPJ } from '@validators/index';
+import { generateValidatorDecorator } from '../utils/index';
+import { isCPFOrCNPJ } from '../validators/index';
 
 /**
  * Check if a value is a valid CPF or CNPJ.

@@ -1,4 +1,4 @@
-import { DateTimePieces } from '@models/DateTimePieces';
+import { DateTimePieces } from '../models/DateTimePieces';
 
 /**
  * Transforms pieces of a date into a Date instance.

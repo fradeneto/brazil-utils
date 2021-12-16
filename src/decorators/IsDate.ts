@@ -1,5 +1,5 @@
-import { generateValidatorDecorator } from '@utils/index';
-import { isDate } from '@validators/index';
+import { generateValidatorDecorator } from '../utils/index';
+import { isDate } from '../validators/index';
 
 /**
  * Check if a brazilian formatted date is valid.

@@ -1,7 +1,7 @@
-import { generateCheckSums } from '@helpers/generateCheckSums';
-import { getRemaining } from '@helpers/getRemainig';
-import { isRepeatedArray } from '@helpers/isRepeatedValue';
-import { mapToNumbers } from '@helpers/mapToNumbers';
+import { generateCheckSums } from '../helpers/generateCheckSums';
+import { getRemaining } from '../helpers/getRemainig';
+import { isRepeatedArray } from '../helpers/isRepeatedValue';
+import { mapToNumbers } from '../helpers/mapToNumbers';
 
 export const CPF_PATTERN = /^(\d{11}|\d{3}\.\d{3}\.\d{3}\-\d{2})$/;
 

@@ -1,4 +1,4 @@
-import { DateTimePieces } from '@models/DateTimePieces';
+import { DateTimePieces } from '../models/DateTimePieces';
 
 /**
  * Resolve a brazilian formatted date or datetime into date, month, year  pieces and hours, minutes and seconds pieces (if contains time).

@@ -1,5 +1,5 @@
-import { generateValidatorDecorator } from '@utils/index';
-import { isPhone } from '@validators/index';
+import { generateValidatorDecorator } from '../utils/index';
+import { isPhone } from '../validators/index';
 
 /**
  * Check if value is a valid brazilian phone number. It can check a wide
